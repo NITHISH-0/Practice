@@ -12,7 +12,7 @@ namespace DataType
             //Isnullorwhitespace
             string firstName = "Vennu";
             string lastName = "gopal";
-            string fullName = String.Concat(" "+ firstName,lastName+" ");
+            string fullName = String.Concat(" " + firstName, lastName + " ");
             bool data = String.IsNullOrEmpty(fullName);
             Console.WriteLine(data);
 
@@ -20,9 +20,9 @@ namespace DataType
 
 
             //StringIndexof
-             string firstname = "nithish";
-             string lastname = "karthi";
-             Console.WriteLine(firstname.IndexOf('t'));
+            string firstname = "nithish";
+            string lastname = "karthi";
+            Console.WriteLine(firstname.IndexOf('t'));
 
 
 
@@ -34,7 +34,10 @@ namespace DataType
 
 
             //String.trim
-             string firstName = "Manikandan";
-             string lastName = "k";
-             string fullName = String.Concat(" "+ firstName,lastName + " ");
-             Console.WriteLine(fullName.Trim());
+            string firstName = "Manikandan";
+            string lastName = "k";
+            string fullName = String.Concat(" " + firstName, lastName + " ");
+            Console.WriteLine(fullName.Trim());
+        }
+    }
+}  
